@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pensaoparque";
+  src:url("../fonts/pensaoparque.eot");
+  src:url("../fonts/pensaoparque.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pensaoparque.woff") format("woff"),
+    url("../fonts/pensaoparque.ttf") format("truetype"),
+    url("../fonts/pensaoparque.svg#pensaoparque") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[class^="pp-"]:before,
+[class*=" pp-"]:before {
+  font-family: "pensaoparque" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #F05F40;
+  /*font-size: 100px;*/
+}
+
+.pp-termas-de-portugal:before {
+  content: "\74";
+}
+.pp-junta-caldelas:before {
+  content: "\61";
+}
+.pp-cm-amares:before {
+  content: "\62";
+}
+.pp-termas-caldelas:before {
+  content: "\63";
+}
+.pp-terras-homem:before {
+  content: "\64";
+}
