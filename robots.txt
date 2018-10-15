@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /en
+Allow: /index.html
+Disallow: /old
+
+Sitemap: http://www.pensaoparque.com/sitemap.xml
